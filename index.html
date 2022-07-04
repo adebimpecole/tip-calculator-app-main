@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  
+  <script src="index.js" defer></script>
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <main>
+    <img src="images/logo.svg" class="title" alt="logo">
+    <div class="container">
+      <div class="left">
+        <div class="bill">
+          <label>Bill</label>
+          <input type="text" class="b_enter" placeholder="0">
+        </div>
+        
+        <div class="tip">
+          <h2 class="tip_hd">Select Tip %</h2>
+          <div class="ech_tip">
+            <div class="tp"><span class="no">5</span>%</div>
+            <div class="tp"><span class="no">10</span>%</div>
+            <div class="tp"><span class="no">15</span>%</div>
+            <div class="tp"><span class="no">25</span>%</div>
+            <div class="tp"><span class="no">50</span>%</div>
+            <div class="tp_cust"><input type="text" placeholder="Custom" class="cstm"></div>
+          </div>
+        </div>
+
+        <div class="ppl">
+          <label><span class="rl">Number of People</span><span class="error">Can't be a zero</span></label>
+          <input type="text" class="p_enter" placeholder="0">
+        </div>
+      </div>
+      <div class="right">
+        <div class="amount">
+          <div class="txt_amount">
+            <span class="txt1">Tip Amount</span>
+            <span class="txt2">/ person</span>
+          </div>
+          <div class="real tips">
+            $0.00
+          </div>
+        </div>
+        <div class="person">
+          <div class="txt_amount">
+            <span class="txt1">Total</span>
+            <span class="txt2">/ person</span>
+          </div>
+          <div class="real total">
+            $0.00
+          </div>
+        </div>
+        <button type="reset" class="reset">Reset</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Mary Cole</a>.
+    </div>
+  </footer>
+</body>
+</html>
