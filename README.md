@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL ](https://your-solution-url.com)
+- Solution URL: [Solution URL ](https://github.com/adebimpecole/tip-calculator-app-main.git)
 - Live Site URL: [Live site URL](https://resilient-hummingbird-f7440b.netlify.app/)
 
 ## My process
